@@ -22,43 +22,38 @@
   <body>
     <div class="container">
       <!--Top-bar-->
-
-      <div class="header__top-bar">
+      <div class="header__top-bar top-bar">
         <!--header logo-->
 
-        <a href="index.html" class="header__logo">
-          <svg class="header__logo--icon">
-            <use xlink:href="sprite.svg#header__logo"></use>
-          </svg>
-        </a>
+        <svg tabindex="0" onclick="window.location.href='index.html'" class="top-bar__logo">
+          <use xlink:href="sprite.svg#logo"></use>
+        </svg>
 
         <!-- header menu -->
+        <nav class="top-bar__nav nav">
+          <input type="checkbox" id="nav__checkbox" class="nav__checkbox" />
 
-        <input
-          type="checkbox"
-          id="header__menu--checkbox"
-          class="header__menu--checkbox"
-        />
+          <label class="nav__button burger" for="nav__checkbox">
+            <span class="burger__row"></span>
+          </label>
 
-        <label class="header__menu--button" for="header__menu--checkbox">
-          <span class="header__menu--row"></span>
-        </label>
-
-        <ul class="header__menu">
-          <li class="header__menu--bg"></li>
-          <li class="header__menu--item">
-            <a class="active" href="home.html">Home</a>
-          </li>
-          <li class="header__menu--item"><a href="about.html">About</a></li>
-          <li class="header__menu--item"><a href="contact.html">Contact</a></li>
-        </ul>
+          <ul class="menu">
+            <li class="menu__item"><a href="home.html">Home</a></li>
+            <li class="menu__item"><a href="about.html">About</a></li>
+            <li class="menu__item"><a href="">Work</a></li>
+            <li class="menu__item"><a href="">Process</a></li>
+            <li class="menu__item"><a href="">Services</a></li>
+            <li class="menu__item"><a href="">Testimonials</a></li>
+            <li class="menu__item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
 
       <!--header-->
 
       <header class="home__header">
-        <h1 class="home__header--title">UI/UX & Graphic Designer</h1>
-        <p class="home__header--desc">
+        <h1 class="home__title">UI/UX & Graphic Designer</h1>
+        <p class="home__desc">
           I am a Graphic & Web Designer based in New York, specializing in User
           Interface Design and Development.
         </p>
@@ -67,41 +62,41 @@
       <!--home-->
 
       <div class="home__content">
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--elem">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__elem">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--elem">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__elem">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--elem">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__elem">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--elem">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__elem">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
-        <div class="home__content--item">
-          <div class="home__content--layer"><i class="pe-7s-look"></i></div>
+        <div class="home__item">
+          <div class="home__layer"><i class="pe-7s-look"></i></div>
         </div>
       </div>
 
@@ -110,10 +105,10 @@
       <footer class="footer">
         <ul class="footer__item">
           <li>
-            <h4 class="footer__item--title">Piroll Design, Inc</h4>
+            <h4 class="footer__title">Piroll Design, Inc</h4>
           </li>
           <li>
-            <p class="footer__item--copyright">
+            <p class="footer__copyright">
               &copy; 2017 Piroll. All rights reserved.<br />
               Designed by robirurk.
             </p>
@@ -128,22 +123,22 @@
           <li><a href="tel:44987065908" class="">+44 987 065 908</a></li>
         </ul>
         <ul class="footer__item">
-          <li class="footer__item--elem"><a href="">Projects</a></li>
-          <li class="footer__item--elem"><a href="">About</a></li>
-          <li class="footer__item--elem"><a href="">Services</a></li>
-          <li class="footer__item--elem"><a href="">Carreer</a></li>
+          <li class="footer__elem"><a href="">Projects</a></li>
+          <li class="footer__elem"><a href="">About</a></li>
+          <li class="footer__elem"><a href="">Services</a></li>
+          <li class="footer__elem"><a href="">Carreer</a></li>
         </ul>
         <ul class="footer__item">
-          <li class="footer__item--elem"><a href="">News</a></li>
-          <li class="footer__item--elem"><a href="">Events</a></li>
-          <li class="footer__item--elem"><a href="">Contact</a></li>
-          <li class="footer__item--elem"><a href="">Legals</a></li>
+          <li class="footer__elem"><a href="">News</a></li>
+          <li class="footer__elem"><a href="">Events</a></li>
+          <li class="footer__elem"><a href="">Contact</a></li>
+          <li class="footer__elem"><a href="">Legals</a></li>
         </ul>
         <ul class="footer__item">
-          <li class="footer__item--elem"><a href="">Facebook</a></li>
-          <li class="footer__item--elem"><a href="">Twitter</a></li>
-          <li class="footer__item--elem"><a href="">Instagram</a></li>
-          <li class="footer__item--elem"><a href="">Dribbble</a></li>
+          <li class="footer__elem"><a href="">Facebook</a></li>
+          <li class="footer__elem"><a href="">Twitter</a></li>
+          <li class="footer__elem"><a href="">Instagram</a></li>
+          <li class="footer__elem"><a href="">Dribbble</a></li>
         </ul>
       </footer>
     </div>

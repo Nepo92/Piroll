@@ -1,0 +1,7 @@
+.header__menu--item .active {
+  color: #10c9c3;
+}
+
+@supports (-webkit-appearance:none){
+
+}

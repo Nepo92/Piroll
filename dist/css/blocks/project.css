@@ -1,0 +1,152 @@
+.project__box {
+  padding: 109px 60px 108px 99px;
+}
+
+.project__box p {
+  color: #787878;
+  font-size: 16px;
+}
+
+.project__box p:nth-child(2) {
+  margin: 32px 0 0 0;
+}
+
+.project__box p:nth-child(3) {
+  margin: 34px 0 0 0;
+}
+
+.project__box__left {
+  width: 50%;
+  height: 570px;
+  color: #000000;
+  background-color: #f6f6f6;
+}
+
+.project__box__title {
+  color: #171717;
+  font-size: 38px;
+}
+
+.project__box__prop {
+  margin: 19px 0 0 0;
+  color: #787878;
+}
+
+.project__box__prop:nth-child(4) {
+  margin: 59px 0 0 0;
+}
+
+.project__box__prop b {
+  color: #171717;
+  font-size: 16px;
+}
+
+.project__box__prop a {
+  color: #787878;
+}
+
+.project__box__prop a:hover {
+  text-decoration: underline;
+}
+
+.project__box__right {
+  width: 50%;
+  height: 570px;
+  background-color: #e6e6e6;
+}
+
+.project .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  border: 1px solid;
+}
+
+.project .prev-button a {
+  position: absolute;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -40px 0 0 0;
+  color: #1d1d1d;
+  font-family: "Montserrat", "sans-serif";
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.project .prev-button a:hover {
+  color: rgba(29, 29, 29, 0.8);
+}
+
+.project .prev-button i {
+  font-weight: 700;
+  font-size: 30px;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.project .prev-button span {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "stroke", "sans-serif";
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.project .next-button a {
+  position: absolute;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -40px 0 0 0;
+  color: #1d1d1d;
+  font-family: "Montserrat", "sans-serif";
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.project .next-button a:hover {
+  color: rgba(29, 29, 29, 0.8);
+}
+
+.project .next-button i {
+  font-weight: 700;
+  font-size: 30px;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+.project .next-button span {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "stroke", "sans-serif";
+  -webkit-transform: translateY(-3px);
+      -ms-transform: translateY(-3px);
+          transform: translateY(-3px);
+}
+
+@supports (-webkit-appearance:none){
+
+}
